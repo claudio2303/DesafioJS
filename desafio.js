@@ -49,16 +49,13 @@ function desenhaX(x,y) {
 
 }
 function Vez(){
-    for (jogadas=0;jogadas<=8;jogadas++){
-
-  
     if(jogador) {
         desenhaX(x,y);
     } else {
         desenhaCirculo(x,y);
     }
     jogador = !jogador;
-     } 
+    
     
 }
 function desenhaForma(evento){
