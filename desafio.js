@@ -52,6 +52,9 @@ function desenhaX(x,y) {
 
 
 }
+function Reseta(){
+    location.reload();
+}
 function Vez(){
     if(jogador) {
         desenhaX(x,y);
@@ -89,7 +92,7 @@ function Verifica(){
       
     }
    if(jogadas > 9 && Ganhei ==false){
-       alert("Deu Veia");
+       alert("Deu Velha, Começando Novo Jogo");
        location.reload();
    }
 }
